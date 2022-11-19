@@ -1,6 +1,9 @@
 import React from 'react';
 import Typical from 'react-typical';
 import './Profile.css';
+import WhatsappIcon from '../../../assets/Icons/whatsapp.svg';
+import LinkedinIcon from '../../../assets/Icons/linkedin.svg';
+import GithubIcon from '../../../assets/Icons/github.svg';
 
 export default function Profile() {
   return (
@@ -9,14 +12,16 @@ export default function Profile() {
         <div className="profile-detail">
           <div className="colz">
             <div className="colz-icon">
-              <a href="#">
-                <i className="fa fa-facebook-square" aria-hidden="true" />
+              <a href="https://wa.me/+6281395007665" target="_blank">
+                <img src={WhatsappIcon} />
               </a>
-              <a href="#">
-                <i className="fa fa-instagram" aria-hidden="true" />
+              <a
+                href="https://linkedin.com/in/maulanamuhammad1/"
+                target="_blank">
+                <img src={LinkedinIcon} />
               </a>
-              <a href="#">
-                <i className="fa fa-twitter" aria-hidden="true" />
+              <a href="https://github.com/maulllanamm" target="_blank">
+                <img src={GithubIcon} />
               </a>
             </div>
           </div>
