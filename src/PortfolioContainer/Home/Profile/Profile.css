@@ -31,8 +31,8 @@
   color: (--white);
 }
 
-.highlighted-text {
-  color: var(--dark-orange);
+.highlight-text {
+  color: #38bdf8;
 }
 
 .profile-role-tagline {
